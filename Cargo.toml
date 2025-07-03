@@ -1,0 +1,16 @@
+[package]
+name = "rust-2025"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.45.1", features = ["rt", "rt-multi-thread", "macros", "sync"] }
+
+
+[[bin]]
+name="broadcast"
+path="src/examples/broadcast.rs"
+
+[[bin]]
+name="bst"
+path="src/examples/bst.rs"
