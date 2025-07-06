@@ -30,3 +30,7 @@ path="src/examples/slice.rs"
 [[bin]]
 name="func"
 path="src/examples/func.rs"
+
+[[bin]]
+name="control"
+path="src/examples/control.rs"
